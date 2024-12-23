@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Emmanuel's Portfolio - Full Stack Web Developer</title>
+</head>
+<body>
+    <!--Hero Section-->
+    <section id="hero">
+        <!--Hero Container-->
+        <div class="container max-w-6xl mx-auto px-6 py-12">
+            <!--Nav/Logo Container-->
+            <nav class="flex items-center justify-between font-bold text-white">
+                <!--Logo-->
+                <img src="" alt="">
+                <!--Menu-->
+                <div class="hidden h-10 font-alata md:flex md:space-x-8">
+                    <div class="group">
+                        <a href="#about-me">About</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#my-specialty">My Specialty</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#tools">Tools</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#my-works">My Works</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+
+                        </div>
+                    </div>
+
+                        <div class="group">
+                            <a href="#footer">Socials</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+
+                            </div>
+                        </div>
+                </div>
+                <!-- hamburder button-->
+                 <div class="md:hidden">
+                    <button id="menu-btn" type="button" class=" z-40 block hamburger md:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+
+                 </div>
+            </nav>
+            <!-- mobile menu-->
+             <div id="menu" class="absolute top-0 bottom-0 left-0 flex-col self-end hidden w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black">
+                <a href="#" class="hover:text-pink-500">About</a>
+                <a href="#" class="hover:text-pink-500">My Specialty</a>
+                <a href="#" class="hover:text-pink-500">Tools</a>
+                <a href="#" class="hover:text-pink-500">My Works</a>
+                <a href="#" class="hover:text-pink-500">Socials</a>
+             </div>
+
+            <div class="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:m-32 md:mx-0 md:text-6xl">
+                HI, I’m Emmanuel!; <br> A full stack developer.
+            </div>
+                <p class="text-right text-white border-b h-10 font-alata font-bold">Let me bring your ideas to Life</p>
+
+        </div>
+    </section>
+
+ <!--About me-->
+    <section id="about-me">
+        <!--About-me container-->
+        <div class="relative container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
+            <!--image-->
+            <img src="./images/Obinna Emmanuel Obi-Akwari.jpg" alt="">
+            <!--Text container-->
+            <div class="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20">
+                <h2 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
+                    About Me
+                </h2>
+                <p class="max-w-md text-center text-justify md:text-left md:text-justify">
+                    Hi there, I'm Obinna Emmanuel Obi-Akwari, a full-stack web developer driven by a deep passion for crafting digital solutions that make a difference. 
+                    With every project, I aim not just to meet expectations, but to exceed them, pushing boundaries and creating innovative web products. 
+                    My commitment to self-improvement means I'm always learning and staying ahead of the curve in this ever-evolving industry. 
+                    Let me bring your vision to life with my expertise, creativity, and dedication to excellence.
+                </p>
+            </div>
+        </div>
+    </section>
+ 
+    
+    <section id="my-specialty">
+        <!--my specialty-->
+        
+        <div class=" text-center">
+            <h2 class="font-sans mb-10 text-4xl text-gray-900 uppercase md:text-center md:mb-10 md:text-5xl md:mt-0">
+                My Specialty
+            </h2>
+                    <button class="border-2 p-1 bg-[#007bff] text-white rounded-2xl">Full-Stack Web Development</button>
+                    <button class="border-2 p-1 bg-[#20c997] text-black rounded-2xl">Front-End Development with React.js & Tailwind css</button>
+                    <button class="border-2 p-1 bg-[#6f42c1] text-white rounded-2xl">UI/UX Design</button>
+                    <button class="border-2 p-1 bg-[#28a745] text-white rounded-2xl">SEO (Search Engine Optimization)</button>
+                    <button class="border-2 p-1 bg-black text-white rounded-2xl">Back-End Development with Node.js, Express.js & Databases</button>
+                    <button class="border-2 p-1 bg-[#003366] text-white rounded-2xl">Database Management & ORM Integration</button>
+                    <button class="border-2 p-1 bg-[#007bff] text-white rounded-2xl">Modern Javascript/Typescript Development</button>
+                    <button class="border-2 p-1 bg-[#343a40] text-white rounded-2xl">Api Development & Integration </button>
+                    <button class="border-2 p-1 bg-[#fd7e14] text-black rounded-2xl">Web Application Deployment & Optimization</button>
+               
+        </div>
+</section>
+
+
+    <section id="tools">
+        <!--tools-->
+        
+        <div class="flex text-center justify-center">
+            <h2 class="max-w-lg mt-10 font-sans text-4xl text-gray-900 uppercase md:text-5xl md:mt-10 md: md:text-left">
+                Tools
+            </h2>
+        </div>
+        <div class=" container flex flex-col text-center justify-center max-w-6xl mx-auto my-15 px-6 text-gray-900 md:flex-row md:px-0">
+            <div class="bg-white md:right-0 md:py-20 md:pl-20">
+                <h2 class="max-w-lg mt-6 mb-6 font-sans text-4xl text-center text-gray-900 md:text-5xl md:mt-0 md:text-left">
+                   Frontend
+                </h2>
+                <div class="max-w-md text-center md:text-left md:text-justify">
+                    <button class="border-2 p-1 bg-[#E34F26] text-white">html 5</button>
+                    <button class="border-2 p-1 bg-[#1572B6] text-white">css</button>
+                    <button class="border-2 p-1 bg-[#06B6D4] text-white">Tailwind css</button>
+                    <button class="border-2 p-1 bg-[#F7DF1E] ">Javascript</button>
+                    <button class="border-2 p-1 bg-[#3178C6] text-white">Typescript</button>
+                    <button class="border-2 p-1 bg-[#61DAFB] text-white">ReacT JS</button>   
+                </div>
+            </div>
+            <!--Text container-->
+            <div class="top-48 pr-0 bg-white md:right-0 md:py-20 md:pl-20">
+                <h2 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900  md:text-5xl md:mt-0 md:text-left">
+                   Backend
+                </h2>
+                <div class="max-w-md text-center md:text-left md:text-justify">
+                    <button class="border-2 p-1 bg-[#339933] text-white"><img src="" alt=""> Node js</button>
+                    <button class="border-2 p-1 bg-black text-white"><img src="" alt="">Express Js</button>
+                    <button class="border-2 p-1 bg-[#47A248] text-white"><img src="" alt=""> Mongo DB</button>
+                    <button class="border-2 p-1 bg-[#4E9F3D] text-white"><img src="" alt="">Mongoose</button>
+                    <button class="border-2 p-1 bg-[#4479A1] text-white"><img src="" alt="">MySQL</button>
+                    <button class="border-2 p-1 bg-[#6C3D9E] text-white"><img src="" alt="">Sequelize</button>
+                </div>
+            </div>
+        </div>
+</section>
+
+    <section id="my-works">
+        <!--my-works-container-->
+        
+        <div class="flex text-center justify-center">
+            <h2 class="max-w-lg font-sans text-4xl text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
+                My Works
+            </h2>
+        </div>
+        <div class=" container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md: text-center md: justify-center md:flex-row md:px-0">
+            <!--image-->
+            <img src="./images/careerhunt.png" alt="">
+            <!--Text container-->
+            <div class="top-48 pr-0 bg-white md:right-0 md:py-20 md:pl-20">
+                <h2 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
+                   CareerHunt
+                </h2>
+                <p class="max-w-md text-center text-justify md:text-left md:text-justify">
+                    Hi there, I'm Obinna Emmanuel Obi-Akwari, a full-stack web developer driven by a deep passion for crafting digital solutions that make a difference. 
+                    With every project, I aim not just to meet expectations, but to exceed them, pushing boundaries and creating innovative web products. 
+                    My commitment to self-improvement means I'm always learning and staying ahead of the curve in this ever-evolving industry. 
+                    Let me bring your vision to life with my expertise, creativity, and dedication to excellence. <br /> <br />
+                    <button class="border-2 p-1 bg-[#28a745] text-white"><a href="">View Live</a></button>
+                    <button class="border-2 p-1 bg-[#181717] text-white"><a href="">GitHub</a></button>
+                    <button class="border-2 p-1 bg-[#D3D3D3] text-black"><a href="">Read more</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class=" container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
+            <!--image-->
+            <img src="" alt="">
+            <!--Text container-->
+            <div class="top-48 pr-0 bg-white md:right-0 md:py-20 md:pl-20">
+                <h2 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
+                   Frontend Quiz
+                </h2>
+                <p class="max-w-md text-center text-justify md:text-left md:text-justify">
+                    Hi there, I'm Obinna Emmanuel Obi-Akwari, a full-stack web developer driven by a deep passion for crafting digital solutions that make a difference. 
+                    With every project, I aim not just to meet expectations, but to exceed them, pushing boundaries and creating innovative web products. 
+                    My commitment to self-improvement means I'm always learning and staying ahead of the curve in this ever-evolving industry. 
+                    Let me bring your vision to life with my expertise, creativity, and dedication to excellence. <br /> <br />
+                    <button class="border-2 p-1 bg-[#28a745] text-white"><a href="">View Live</a></button>
+                    <button class="border-2 p-1 bg-[#181717] text-white"><a href="">GitHub</a></button>
+                    <button class="border-2 p-1 bg-[#D3D3D3] text-black"><a href="">Read more</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class=" container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
+            <!--image-->
+            <img src="" alt="">
+            <!--Text container-->
+            <div class="top-48 pr-0 bg-white md:right-0 md:py-20 md:pl-20">
+                <h2 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
+                   Rukins_Attire
+                </h2>
+                <p class="max-w-md text-center text-justify md:text-left md:text-justify">
+                    Hi there, I'm Obinna Emmanuel Obi-Akwari, a full-stack web developer driven by a deep passion for crafting digital solutions that make a difference. 
+                    With every project, I aim not just to meet expectations, but to exceed them, pushing boundaries and creating innovative web products. 
+                    My commitment to self-improvement means I'm always learning and staying ahead of the curve in this ever-evolving industry. 
+                    Let me bring your vision to life with my expertise, creativity, and dedication to excellence. <br /> <br />
+                    <button class="border-2 p-1 bg-[#28a745] text-white"><a href="">View Live</a></button>
+                    <button class="border-2 p-1 bg-[#181717] text-white"><a href="">GitHub</a></button>
+                    <button class="border-2 p-1 bg-[#D3D3D3] text-black"><a href="">Read more</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class=" container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
+            <!--image-->
+            <img src="" alt="">
+            <!--Text container-->
+            <div class="top-48 pr-0 bg-white md:right-0 md:py-20 md:pl-20">
+                <h2 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
+                   Portfolio
+                </h2>
+                <p class="max-w-md text-center text-justify md:text-left md:text-justify">
+                    Hi there, I'm Obinna Emmanuel Obi-Akwari, a full-stack web developer driven by a deep passion for crafting digital solutions that make a difference. 
+                    With every project, I aim not just to meet expectations, but to exceed them, pushing boundaries and creating innovative web products. 
+                    My commitment to self-improvement means I'm always learning and staying ahead of the curve in this ever-evolving industry. 
+                    Let me bring your vision to life with my expertise, creativity, and dedication to excellence. <br /> <br />
+                    <button class="border-2 p-1 bg-[#28a745] text-white"><a href="">View Live</a></button>
+                    <button class="border-2 p-1 bg-[#181717] text-white"><a href="">GitHub</a></button>
+                    <button class="border-2 p-1 bg-[#D3D3D3] text-black"><a href="">Read more</a></button>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <footer id="footer" class="bg-black">
+        <!--container-->
+        <div class="container max-w-6xl py-10 mx-auto">
+           <!--footer flex container-->
+           <div class="flex flex-col items-center mb-8 space-y-6 md:flex-row md:sapce-y-0 md:justify-between md-items-start">
+            <!--Menu and Logo container-->
+                <div class="flex flex-col items-center sapce-y-8 md:items-start md:space-y-4">
+                    <div class="h-8">
+                        <img src="" alt="" class="w-44 md:ml-3">
+                    </div>
+
+                    <div class="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+                        <!--Item 1-->
+                        <div class="h-10 group">
+                            <a href="">About</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+
+                            </div>
+                        </div>
+
+                        <div class="h-10 group">
+                            <a href="">My Specialty</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+                                
+                            </div>
+                        </div>
+
+                        <div class="h-10 group">
+                            <a href="">Tools</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+                                
+                            </div>
+                        </div>
+
+                        <div class="h-10 group">
+                            <a href="">My Works</a>
+                            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            <!--Socail icons and copyright contianer-->
+
+            <div class="flex flex-col items-start justify-between space-y-4 text-gray-500">
+                <!--Icons container-->
+                <div class="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0">
+                  <div class="h-8 group">
+                    <a href="">
+                        <img src="./images/icon-facebook.svg" alt="" class="h-6">
+                    </a>
+                  </div>
+
+                  <div class="h-8 group">
+                    <a href="">
+                        <img src="./images/icon-twitter.svg" alt="" class="h-6">
+                    </a>
+                  </div>
+
+                  <div class="h-8 group">
+                    <a href="">
+                        <img src="./images/icon-instagram.svg" alt="" class="h-6">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Copy-->
+                 <div class="font-bold">
+                    &copy: 2025 Emmanuel. All Rights Reserved
+                 </div>
+            </div>
+           </div> 
+        </div>
+    </footer>
+</body>
+</html>
