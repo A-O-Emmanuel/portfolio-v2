@@ -1042,6 +1042,14 @@ video {
     display: none;
   }
 
+  .md\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
